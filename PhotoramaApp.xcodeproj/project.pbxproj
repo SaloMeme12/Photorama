@@ -12,6 +12,7 @@
 		FEA9B1712B9A45B100A8107D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9B1702B9A45B100A8107D /* ViewController.swift */; };
 		FEA9B1762B9A45B200A8107D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA9B1752B9A45B200A8107D /* Assets.xcassets */; };
 		FEA9B1792B9A45B200A8107D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA9B1772B9A45B200A8107D /* LaunchScreen.storyboard */; };
+		FEA9B1822B9A542600A8107D /* FlickerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9B1812B9A542600A8107D /* FlickerAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FEA9B1752B9A45B200A8107D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEA9B1782B9A45B200A8107D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEA9B17A2B9A45B200A8107D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA9B1812B9A542600A8107D /* FlickerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		FEA9B16B2B9A45B100A8107D /* PhotoramaApp */ = {
 			isa = PBXGroup;
 			children = (
+				FEA9B1802B9A53B100A8107D /* Network */,
 				FEA9B16C2B9A45B100A8107D /* AppDelegate.swift */,
 				FEA9B16E2B9A45B100A8107D /* SceneDelegate.swift */,
 				FEA9B1702B9A45B100A8107D /* ViewController.swift */,
@@ -62,6 +65,14 @@
 				FEA9B17A2B9A45B200A8107D /* Info.plist */,
 			);
 			path = PhotoramaApp;
+			sourceTree = "<group>";
+		};
+		FEA9B1802B9A53B100A8107D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FEA9B1812B9A542600A8107D /* FlickerAPI.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEA9B1712B9A45B100A8107D /* ViewController.swift in Sources */,
+				FEA9B1822B9A542600A8107D /* FlickerAPI.swift in Sources */,
 				FEA9B16D2B9A45B100A8107D /* AppDelegate.swift in Sources */,
 				FEA9B16F2B9A45B100A8107D /* SceneDelegate.swift in Sources */,
 			);
