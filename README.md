@@ -29,3 +29,4 @@ To run the Photorama application locally:
 ## Contributions
 
 Contributions to the Photorama project are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
+# Photorama1
