@@ -13,6 +13,7 @@
 		FEA9B1762B9A45B200A8107D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA9B1752B9A45B200A8107D /* Assets.xcassets */; };
 		FEA9B1792B9A45B200A8107D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA9B1772B9A45B200A8107D /* LaunchScreen.storyboard */; };
 		FEA9B1822B9A542600A8107D /* FlickerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9B1812B9A542600A8107D /* FlickerAPI.swift */; };
+		FECC06C22B9F927C00D7DC66 /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECC06C12B9F927C00D7DC66 /* PhotoStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FEA9B1782B9A45B200A8107D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEA9B17A2B9A45B200A8107D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEA9B1812B9A542600A8107D /* FlickerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerAPI.swift; sourceTree = "<group>"; };
+		FECC06C12B9F927C00D7DC66 /* PhotoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		FEA9B16B2B9A45B100A8107D /* PhotoramaApp */ = {
 			isa = PBXGroup;
 			children = (
+				FECC06C32B9F928100D7DC66 /* Data */,
 				FEA9B1802B9A53B100A8107D /* Network */,
 				FEA9B16C2B9A45B100A8107D /* AppDelegate.swift */,
 				FEA9B16E2B9A45B100A8107D /* SceneDelegate.swift */,
@@ -73,6 +76,22 @@
 				FEA9B1812B9A542600A8107D /* FlickerAPI.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		FECC06BF2B9F920600D7DC66 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FECC06C12B9F927C00D7DC66 /* PhotoStore.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FECC06C32B9F928100D7DC66 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FECC06BF2B9F920600D7DC66 /* Service */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FECC06C22B9F927C00D7DC66 /* PhotoStore.swift in Sources */,
 				FEA9B1712B9A45B100A8107D /* ViewController.swift in Sources */,
 				FEA9B1822B9A542600A8107D /* FlickerAPI.swift in Sources */,
 				FEA9B16D2B9A45B100A8107D /* AppDelegate.swift in Sources */,
